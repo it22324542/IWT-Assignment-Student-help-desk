@@ -1,0 +1,282 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url('./img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.i1 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 400px;
+}
+
+.i2 h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.logAndSign{
+  padding-left: 50px;
+  padding-top: 75px;
+  margin-left: 200px;
+}
+
+.logAndSign button{
+    width: 80px;
+    height:40px;
+    background-color: black;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 18px;
+    margin-right: 5px;
+    margin-left: 40px;
+}
+
+.logAndSign button a{
+    color: #DA3E15;
+    text-decoration: none;
+}
+
+.logAndSign button:hover{
+    
+    background-color: #DA3E15;
+    transition:background-color 0.4s;
+}
+
+.logAndSign button a:hover{
+    color: black;
+}
+
+hr{
+     background-color: #DA3E15;
+     height: 7px;
+     border: none;
+}  
+
+.menubar{
+    background-color: rgba(0, 0, 0, 0.595);
+    width: 700px;
+    height: 20px;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.menubar a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.menubar a:hover{
+    color: #DA3E15;
+    transition: color 0.4s;
+}
+
+.btnAndProfile{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.homePageGuideline{
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.welcome{
+    background-color: rgba(255, 255, 255, 0.484);
+    color: white;
+    width: 90%;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.welcome h1{
+    text-align: start;
+}
+
+.welcome li p{
+    color: black;
+    text-align: start;
+    font-weight: bold;
+    font-size: large;
+}
+
+.imageslider{
+    margin-top: 40px;
+}
+
+.images{
+    margin-bottom: 20px;
+}
+
+.profile{
+    width: 250px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.818);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    
+.btn{
+    margin-left: 270px;
+}
+
+.btn button{
+    width: 300px;
+    height: 300px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 200px;
+    margin-left: 100px;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.Tickets a{
+    text-decoration: none;
+}
+
+.btn button:hover{
+    background-color: #DA3E15;
+    transition:background-color 0.4s;
+}
+
+.btnname{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.btnname a{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.btnname a:hover{
+    color: #DA3E15;
+    transition:color 0.4s;
+}
+
+#newtikname{
+    padding-right: 270px ;
+}
+
+.respondingArea{
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    width: 700px;
+    height: 900px;
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.studentDetails{
+    text-align: start;
+}
+
+.Question{
+
+    text-align: start;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.answer{
+    text-align: start;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#Response{
+    background-color: black;
+    width: 80%;
+    border-color: #DA3E15;
+    color: white;
+    padding:20px 20px 20px 20px;
+}
+
+.Responsebtn{
+    margin-top: 70px;
+}
+
+.Responsebtn button{
+    height: 62px;
+    width: 100px;
+    color: black;
+    background-color: #DA3E15;
+    border-style: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 75px;
+}
+
+.Responsebtn button:hover{
+    background-color: rgb(187, 51, 17);
+    transition:background-color 0.4s;
+}
+
+.Responsebtn button:active{
+    background-color: white;
+    color: black;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.foot nav a{
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foot nav a:hover{
+    color: #DA3E15;
+    transition: color 0.4s;
+    cursor: pointer;
+}

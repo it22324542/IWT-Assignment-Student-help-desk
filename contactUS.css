@@ -1,0 +1,179 @@
+body{
+
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+.container{
+    display: flex;
+}
+
+.i1 img{
+    width: 150px;
+    height: 150px;
+    margin-right: 400px;
+}
+
+.i2 h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.logAndSign{
+  padding-left: 50px;
+  padding-top: 75px;
+  margin-left: 200px;
+}
+
+.logAndSign button{
+    width: 80px;
+    height:40px;
+    background-color: black;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 18px;
+    margin-right: 5px;
+    margin-left: 40px;
+}
+
+.logAndSign button a{
+    color: #DA3E15;
+    text-decoration: none;
+}
+
+.logAndSign button:hover{
+    
+    background-color: #DA3E15;
+    transition:background-color 0.4s;
+}
+
+.logAndSign button a:hover{
+    color: black;
+}
+
+hr{
+     background-color: #DA3E15;
+     height: 7px;
+     border: none;
+
+}  
+
+.menubar{
+    background-color: rgba(0, 0, 0, 0.595);
+    width: 700px;
+    height: 20px;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.menubar a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.menubar a:hover{
+    color: #DA3E15;
+    transition: color 0.4s;
+}
+
+h2{
+    color:black;
+    text-align: justify;
+    font-size: 35px;
+    
+}
+
+.imgage{
+
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h3{
+
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+   
+  
+
+.i7{
+
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    
+
+}
+  
+th{
+    
+    color: black;
+    font-size: 35px;   
+    font-weight: bolder;
+    
+}
+
+td{
+
+    text-align:center;
+    font-size: 25px;
+    color:black ;
+    padding: 50px;
+
+   
+}
+
+
+table{
+
+
+   margin-left: auto;
+   margin-right: auto;
+
+    
+
+}
+
+ 
+.foot{
+    background-color: black;
+    color:white;
+    text-align:center;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.foot nav a{
+    text-align: center;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foot nav a:hover{
+    color: #DA3E15;
+    transition: color 0.4s;
+    cursor: pointer;
+}

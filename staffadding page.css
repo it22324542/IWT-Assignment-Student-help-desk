@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: url('img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: rgb(182, 172, 172);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.container header{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 8px;
+   /* border-bottom: 1px solid silver;*/
+ }
+    
+
+.container.form{
+    margin-top: 30px;
+
+}
+.form.input-box{
+width: 100%;
+margin-top: 20px;
+
+}
+.input-box label{
+    color: #333;
+   
+}
+.form :where(.input-box input,.select-box){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.form .column{
+    display: flex;
+    column-gap: 10px;
+}
+   
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+.button input{
+    height: 50px;
+    width: 70px;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    
+    font-weight: 400;
+    background-color: rgb(21, 21, 150);
+    align-self:flex-end;
+}
+.button input:hover{
+    background-color:rgb(4, 4, 86);
+
+}
